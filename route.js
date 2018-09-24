@@ -3,6 +3,7 @@ var reportDialogue = require('./report/report-dialogue.json');
 var reportEngagement = require('./report/report-engagement.json');
 var reportChatservice = require('./report/report-chatservice.json');
 var account = require('./account/account.json');
+var company = require('./company/company.json');
 
 module.exports = function () {
     return {
@@ -43,5 +44,6 @@ module.exports = function () {
         "reverse-company": account['reverse-mock-company'],
         "reverse-role": account['reverse-mock-role'],
         "account": account['mock-account']['content'],
+        "company-page": company['company']
     }
 }
