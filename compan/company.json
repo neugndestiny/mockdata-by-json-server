@@ -1,0 +1,142 @@
+{
+    "company": [
+        {
+            "_id": "5aebfaf2eabeaa0022163beb",
+            "updated_at": "2018-05-04T06:17:22.544Z",
+            "created_at": "2018-05-04T06:17:22.544Z",
+            "schema_name": "wit_ai_krungsri",
+            "name": "Krungsri",
+            "flow_name": "mojito_bank_flow",
+            "token": "743df8bb-51b3-40e0-9350-e10f852b5bc8",
+            "company_name_space": "krungsri",
+            "__v": 0,
+            "passphase": "krungsri"
+        },
+        {
+            "_id": "5a4468c3dc8a9e00ecfe7dc9",
+            "updated_at": "2017-12-28T03:45:07.475Z",
+            "created_at": "2017-12-28T03:45:07.475Z",
+            "schema_name": "wit_ai_sixcoin",
+            "name": "Sixcoin",
+            "flow_name": "mojito_bank_flow",
+            "token": null,
+            "configs": {
+                "contact_admin": 10,
+                "context": 10
+            },
+            "company_name_space": "sixcoin",
+            "__v": 0,
+            "passphase": "sixcoin"
+        },
+        {
+            "_id": "59f97c99d79f7200e8382dbf",
+            "updated_at": "2017-11-01T07:49:45.272Z",
+            "created_at": "2017-11-01T07:49:45.272Z",
+            "schema_name": "wit_ai_aycap",
+            "name": "AYCAP",
+            "flow_name": "mojito_bank_flow",
+            "token": "42b21161-357f-4d3d-a3ad-03d5a5b0277b",
+            "configs": {
+                "contact_admin": 10,
+                "context": 10
+            },
+            "company_name_space": "aycap",
+            "__v": 0,
+            "passphase": "aycap"
+        },
+        {
+            "_id": "59e2305b235d2500edff783f",
+            "updated_at": "2017-10-14T15:42:19.447Z",
+            "created_at": "2017-10-14T15:42:19.447Z",
+            "schema_name": "wit_ai_central",
+            "name": "Central",
+            "flow_name": "mojito_bank_flow",
+            "token": "3b710743-aa1a-4c12-8f06-f35b1eeex56ut",
+            "configs": {
+                "contact_admin": 10,
+                "context": 10
+            },
+            "company_name_space": "central",
+            "__v": 0,
+            "passphase": "central"
+        },
+        {
+            "_id": "592e35f8a61db000e72a3cea",
+            "updated_at": "2017-06-15T03:39:37.178Z",
+            "created_at": "2017-05-31T03:18:16.156Z",
+            "schema_name": "wit_ai_mojito",
+            "name": "Mojito",
+            "flow_name": "mojito_bank_flow",
+            "token": "3b710743-aa1a-4c12-8f06-f35b1eee20fb",
+            "configs": {
+                "contact_admin": 10,
+                "context": 10
+            },
+            "company_name_space": "mojito",
+            "__v": 0,
+            "passphase": "mojito"
+        },
+        {
+            "_id": "591c16b370cdce00c35f5bcf",
+            "updated_at": "2017-06-15T03:39:37.176Z",
+            "created_at": "2017-05-17T09:24:03.540Z",
+            "schema_name": "wit_ai_kbank2",
+            "name": "KBank2",
+            "flow_name": "kbank_flow",
+            "token": "6ac4e0a5-a99b-4c77-a8f5-5b75af9fda2c",
+            "__v": 0,
+            "passphase": "kbank"
+        },
+        {
+            "_id": "591c16b370cdce00c35f5bce",
+            "updated_at": "2017-06-15T03:39:37.175Z",
+            "created_at": "2017-05-17T09:24:03.536Z",
+            "schema_name": "wit_ai_kbank",
+            "name": "KBank",
+            "flow_name": "kbank_flow",
+            "token": "7ddb6f17-a884-447b-a226-e4092f0fc217",
+            "__v": 0,
+            "passphase": "kbank"
+        },
+        {
+            "_id": "591c16b370cdce00c35f5bcd",
+            "updated_at": "2017-06-15T03:39:37.174Z",
+            "created_at": "2017-05-17T09:24:03.533Z",
+            "schema_name": "wit_ai_bay",
+            "name": "BAY",
+            "flow_name": "bay_flow",
+            "token": "49f93860-2297-4df9-a639-d66d01454c14",
+            "configs": {
+                "contact_admin": 10,
+                "context": 10
+            },
+            "company_name_space": "bay",
+            "__v": 0,
+            "passphase": "bay"
+        },
+        {
+            "_id": "591c16b370cdce00c35f5bcc",
+            "updated_at": "2018-09-05T14:08:21.983Z",
+            "created_at": "2017-05-17T09:24:03.528Z",
+            "schema_name": "wit_ai_computerlogy",
+            "name": "Computerlogy",
+            "flow_name": "cg_flow",
+            "token": "25a9c46c-48f2-42e9-bd1d-bdc455325e65",
+            "__v": 0,
+            "passphase": "computerlogy"
+        },
+        {
+            "_id": "591c16b370cdce00c35f5bcb",
+            "updated_at": "2017-06-15T03:39:37.158Z",
+            "created_at": "2017-05-17T09:24:03.502Z",
+            "schema_name": "wit_ai_ais",
+            "name": "AIS",
+            "flow_name": "ais_flow",
+            "token": "36e1cbde-d338-455a-add8-d95987c71acb",
+            "__v": 0,
+            "passphase": "ais"
+        }
+    ],
+    "count": 10,
+    "pages": 1
+}
