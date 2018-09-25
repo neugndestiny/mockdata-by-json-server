@@ -1,12 +1,195 @@
 {
-    "mock-role": {
-        "role": {
-            "5942011dc74c32003801165d": "admin",
-            "5ac5c68d1c03ce0082490978": "user",
-            "5942011dc74c32003801165f": "content",
-            "5942011dc74c32003801165e": "superuser"
+    "mock-role": [
+        {
+            "_id": "5942011dc74c32003801165d",
+            "name": "admin",
+            "ref_id": "01",
+            "permission": {
+                "chat-explorer": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "dialogue": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "intent": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "engagement": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "account": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "company": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ]
+            }
+        },
+        {
+            "_id": "5ac5c68d1c03ce0082490978",
+            "name": "user",
+            "ref_id": "02",
+            "permission": {
+                "chat-explorer": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "dialogue": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "intent": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "engagement": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ]
+            }
+        },
+        {
+            "_id": "5942011dc74c32003801165f",
+            "name": "content",
+            "ref_id": "03",
+            "permission": {
+                "chat-explorer": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "dialogue": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "intent": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "engagement": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "account": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "company": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ]
+            }
+        },
+        {
+            "_id": "5942011dc74c32003801165e",
+            "name": "superuser",
+            "ref_id": "04",
+            "permission": {
+                "chat-explorer": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "dialogue": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "intent": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "engagement": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "account": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "company": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "report": [
+                    "all",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ]
+            }
         }
-    },
+    ],
     "mock-company": {
         "company": {
             "591c16b370cdce00c35f5bcd": "BAY",
