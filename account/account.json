@@ -65,12 +65,10 @@
                     "all",
                     "create",
                     "edit",
-                    "update",
-                    "delete"
+                    "update"
                 ],
                 "intent": [
                     "all",
-                    "create",
                     "edit",
                     "update",
                     "delete"
@@ -78,7 +76,6 @@
                 "engagement": [
                     "all",
                     "create",
-                    "edit",
                     "update",
                     "delete"
                 ]
@@ -140,6 +137,7 @@
             "permission": {
                 "chat-explorer": [
                     "all",
+                    "read",
                     "create",
                     "edit",
                     "update",
@@ -147,6 +145,7 @@
                 ],
                 "dialogue": [
                     "all",
+                    "read",
                     "create",
                     "edit",
                     "update",
@@ -154,6 +153,7 @@
                 ],
                 "intent": [
                     "all",
+                    "read",
                     "create",
                     "edit",
                     "update",
@@ -161,6 +161,7 @@
                 ],
                 "engagement": [
                     "all",
+                    "read",
                     "create",
                     "edit",
                     "update",
@@ -168,6 +169,7 @@
                 ],
                 "account": [
                     "all",
+                    "read",
                     "create",
                     "edit",
                     "update",
@@ -175,13 +177,23 @@
                 ],
                 "company": [
                     "all",
+                    "read",
                     "create",
                     "edit",
                     "update",
                     "delete"
                 ],
-                "report": [
+                "role": [
                     "all",
+                    "read",
+                    "create",
+                    "edit",
+                    "update",
+                    "delete"
+                ],
+                "chat-service": [
+                    "all",
+                    "read",
                     "create",
                     "edit",
                     "update",
@@ -197,7 +209,11 @@
             "59e2305b235d2500edff783f": "Central",
             "59f97c99d79f7200e8382dbf": "AYCAP",
             "5aebfaf2eabeaa0022163beb": "Krungsri",
-            "5a4468c3dc8a9e00ecfe7dc9": "Sixcoin"
+            "5a4468c3dc8a9e00ecfe7dc9": "Sixcoin",
+            "5a4468c3dc8a9e00ecfe7dc1": "AIS",
+            "5a4468c3dc8a9e00ecfe7dc4": "Computerlogy",
+            "5a4468c3dc8a9e00ecfe7d11": "Kbank",
+            "5a4468c3dc8a9e00ecfe7dsa": "Kbank2"
         }
     },
     "reverse-mock-company": {
@@ -207,15 +223,19 @@
             "Central": "59e2305b235d2500edff783f",
             "AYCAP": "59f97c99d79f7200e8382dbf",
             "Krungsri": "5aebfaf2eabeaa0022163beb",
-            "Sixcoin": "5a4468c3dc8a9e00ecfe7dc9"
+            "Sixcoin": "5a4468c3dc8a9e00ecfe7dc9",
+            "AIS": "5a4468c3dc8a9e00ecfe7dc1",
+            "Computerlogy": "5a4468c3dc8a9e00ecfe7dc4",
+            "Kbank": "5a4468c3dc8a9e00ecfe7d11",
+            "Kbank2": "5a4468c3dc8a9e00ecfe7dsa"
         }
     },
     "reverse-mock-role": {
         "role": {
-            "admin": "5942011dc74c32003801165d",
-            "user": "5ac5c68d1c03ce0082490978",
-            "content": "5942011dc74c32003801165f",
-            "superuser": "5942011dc74c32003801165e"
+            "Admin": "5942011dc74c32003801165d",
+            "User": "5ac5c68d1c03ce0082490978",
+            "Content Editor": "5942011dc74c32003801165f",
+            "Super User": "5942011dc74c32003801165e"
         }
     },
     "mock-account": {
@@ -706,5 +726,240 @@
         "numberOfElements": 20,
         "size": 20,
         "number": 0
-    }
+    },
+    "role": [
+        {
+            "_id": "5942011dc74c32003801165f",
+            "refId": "r001",
+            "companyId": "c001",
+            "name": "Content Editor",
+            "menus": [
+                {
+                    "name": "Chat Explorer",
+                    "path": "/chatexplorer",
+                    "actions": [
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Intent Report",
+                    "path": "/intent",
+                    "actions": [
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Engagement Report",
+                    "path": "/engagement-report",
+                    "actions": [
+                        "VIEW",
+                        "EXPORT"
+                    ]
+                }
+            ],
+            "created_at": "2018-09-25T10:47:55.071+0000",
+            "updated_at": "2018-09-25T10:47:55.071+0000"
+        },
+        {
+            "_id": "5942011dc74c32003801165d",
+            "refId": "r002",
+            "companyId": "c001",
+            "name": "Admin",
+            "menus": [
+                {
+                    "name": "Chat Explorer",
+                    "path": "/chatexplorer",
+                    "actions": [
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Engagement Report",
+                    "path": "/engagement-report",
+                    "actions": [
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Intent Report",
+                    "path": "/intent-report",
+                    "actions": [
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Chatbot Service Report",
+                    "path": "/chat-service-report",
+                    "actions": [
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Dialogue Report",
+                    "path": "/dialogue-report",
+                    "actions": [
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                }
+            ],
+            "created_at": "2018-09-25T10:47:55.071+0000",
+            "updated_at": "2018-09-25T10:47:55.071+0000"
+        },
+        {
+            "_id": "5ac5c68d1c03ce0082490978",
+            "refId": "r003",
+            "companyId": "c001",
+            "name": "User",
+            "menus": [
+                {
+                    "name": "Chat Explorer",
+                    "path": "/chatexplorer",
+                    "actions": [
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Intent Report",
+                    "path": "/intent",
+                    "actions": [
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                }
+            ],
+            "created_at": "2018-09-25T10:47:55.071+0000",
+            "updated_at": "2018-09-25T10:47:55.071+0000"
+        },
+        {
+            "_id": "5942011dc74c32003801165e",
+            "refId": "r004",
+            "companyId": "c001",
+            "name": "Super User",
+            "menus": [
+                {
+                    "name": "Chat Explorer",
+                    "path": "/chatexplorer",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Account",
+                    "path": "/account",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Role",
+                    "path": "/role",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Company",
+                    "path": "/company",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Engagement Report",
+                    "path": "/engagement-report",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Intent Report",
+                    "path": "/intent-report",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Chatbot Service Report",
+                    "path": "/chat-service-report",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                },
+                {
+                    "name": "Dialogue Report",
+                    "path": "/dialogue-report",
+                    "actions": [
+                        "MANAGE",
+                        "VIEW",
+                        "EXPORT",
+                        "ADD",
+                        "EDIT",
+                        "DELETE"
+                    ]
+                }
+            ],
+            "created_at": "2018-09-25T10:47:55.071+0000",
+            "updated_at": "2018-09-25T10:47:55.071+0000"
+        }
+    ]
 }

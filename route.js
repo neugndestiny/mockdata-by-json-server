@@ -39,7 +39,7 @@ module.exports = function () {
         "resolve-by-overview": reportChatservice['resolve-by-overview'],
         "nlu-request-status": reportChatservice['nlu-request-status'],
         "nlu-request-day-of-week": reportChatservice['nlu-request-day-of-week'],
-        "role": account['mock-role'],
+        "role": account['role'],
         "company": account['mock-company'],
         "reverse-company": account['reverse-mock-company'],
         "reverse-role": account['reverse-mock-role'],
